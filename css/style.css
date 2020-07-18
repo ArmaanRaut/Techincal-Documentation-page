@@ -1,0 +1,94 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+body{
+  background-color: #000;
+  color: #fff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 1%;
+  margin: 1%;
+}
+
+.navbar {
+  position: fixed;
+  min-width: 25%;
+  top:0;
+  left: 0;
+  width: 27.5%;
+  height: 100%;
+  border-right: solid;
+}
+
+.navbar ul{
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.navbar li{
+  position: relative;
+  color: #fff;
+  border: 1px solid #fff;
+  width: 100%;
+}
+.navbar a{
+  display: block;
+  padding: 1rem 2rem;
+  color: #fff;
+  cursor: pointer;
+}
+.navbar a:hover{
+  font-size: 120%;
+  font-weight: 800;
+  text-shadow: 0 0 20px rgb(207, 194, 255);
+}
+
+header{
+  font-size: 175%;
+  margin: 0;
+  text-align: left;
+}
+.navbar header {
+  text-align: center;
+  margin: 1rem;
+}
+
+.main-doc{
+  position: absolute;
+  margin-left: 26.5%;
+  padding: 0.25rem;
+}
+
+section article{
+  margin: 1rem;
+  font-size: 1rem;
+}
+section li{
+  list-style: disc;
+  margin: 1rem 0 0 1.5rem;
+}
+section p{
+  padding: 0.5rem;
+}
+
+code{
+  display: block;
+  color: #000;
+  text-align: left;
+  white-space: pre;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  background-color: rgb(250, 235, 215);
+  padding: 0.25rem;
+  margin: 0.25rem;
+  border-radius: 5px;
+}
